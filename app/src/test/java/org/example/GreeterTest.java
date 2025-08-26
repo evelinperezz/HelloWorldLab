@@ -6,8 +6,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class GreeterTest {
   @Test
   void itHasAGreeting() {
-    HelloWorld helloWorld = new HelloWorld();
-    assertEquals(helloWorld.getGreeting(), "Hello World!!");
+    Greeter greeter = new Greeter();
+    assertEquals(greeter.getGreeting(), "Hello World!!");
   }
 }
 
