@@ -1,7 +1,7 @@
 package org.example;
 
 public class Greeter {
-      String getGreeting() {
+      public String getGreeting() {
         return "Hello World!!";
       }     
   }
